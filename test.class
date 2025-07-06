@@ -1,0 +1,20 @@
+// Java program for demonstrating the features and functionalities of OOPs concepts in Java.  
+class Animal {  
+    private String name;  
+  
+    // Constructor  
+    public Animal(String name) {  
+        this.name = name;  
+    }  
+  
+    // Encapsulation: Getter method  
+    public String getName() {  
+        return name;  
+    }  
+  
+    // Polymorphism: Overridden method  
+    public void makeSound() {  
+        System.out.println("Some sound");  
+    }  
+}  
+ 
